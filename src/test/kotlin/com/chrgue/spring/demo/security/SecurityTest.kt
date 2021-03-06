@@ -37,7 +37,7 @@ class SecurityTest(@Autowired val webTestClient: WebTestClient) {
     @WithMockUser
     fun userIsAuthorized() {
         webTestClient.get()
-            .uri("/user-content")
+            .uri("/uent")
             .exchange()
             .expectStatus()
             .is2xxSuccessful
