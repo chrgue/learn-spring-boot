@@ -81,4 +81,19 @@ class MonoTests {
             .stepVerify()
             .verifyError(IllegalArgumentException::class.java)
     }
+
+
+    @Test
+    fun `consume twice`() {
+
+        val dbPublisher = "something".toMono().map { it.uppercase() }
+
+        dbPublisher
+            .concatWith(dbPublisher)
+            .stepVerify()
+            .expectNext("SOMETHING")
+            .expectNext("SOMETHING")
+            .verifyComplete()
+    }
+
 }
