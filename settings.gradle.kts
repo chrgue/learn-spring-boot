@@ -1,1 +1,1 @@
-rootProject.name = "playground-kotlin-spring"
+rootProject.name = "spring-playground"
