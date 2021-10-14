@@ -1,4 +1,5 @@
 # learn-spring-boot
 
 ### run tests
-$ ./gradlew test 
+
+    $ ./gradlew test 
