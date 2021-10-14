@@ -1,4 +1,4 @@
-package com.chrgue.spring.demo.security
+package io.chrgue.learn.springboot.security
 
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
@@ -10,7 +10,7 @@ import org.springframework.test.web.reactive.server.WebTestClient
 
 @ActiveProfiles("security")
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-class SecurityTest(@Autowired val webTestClient: WebTestClient) {
+class SecurityIT(@Autowired val webTestClient: WebTestClient) {
 
     @Test
     fun unknownUserIsUnauthorized() {

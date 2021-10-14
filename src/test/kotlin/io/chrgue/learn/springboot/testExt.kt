@@ -1,4 +1,4 @@
-package com.chrgue.spring.demo
+package io.chrgue.learn.springboot
 
 import org.reactivestreams.Publisher
 import reactor.test.StepVerifier

@@ -1,6 +1,6 @@
-package com.chrgue.spring.demo.repositories
+package io.chrgue.learn.springboot.repositories
 
-import com.chrgue.spring.demo.models.Product
+import io.chrgue.learn.springboot.domain.Product
 import org.springframework.stereotype.Service
 import reactor.core.publisher.Flux
 
@@ -14,5 +14,4 @@ class ProductsRepository {
 
     fun getAll() =
         Flux.fromIterable(products)
-
 }

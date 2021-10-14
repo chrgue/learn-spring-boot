@@ -1,4 +1,4 @@
-package com.chrgue.spring.demo.configurations
+package io.chrgue.learn.springboot.configs
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

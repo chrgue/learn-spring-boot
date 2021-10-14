@@ -1,13 +1,13 @@
-package com.chrgue.spring.demo.controllers
+package io.chrgue.learn.springboot.controllers
 
-import com.chrgue.spring.demo.models.Product
+import io.chrgue.learn.springboot.domain.Product
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.test.web.reactive.server.WebTestClient
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-class ProductsControllerTest(@Autowired private val webTestClient: WebTestClient) {
+class ProductsControllerIT(@Autowired private val webTestClient: WebTestClient) {
 
     @Test
     fun receiveProducts() {

@@ -1,4 +1,4 @@
-package com.chrgue.spring.demo
+package io.chrgue.learn.springboot
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

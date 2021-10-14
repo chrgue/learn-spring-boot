@@ -1,4 +1,4 @@
-package com.chrgue.spring.demo.controllers
+package io.chrgue.learn.springboot.controllers
 
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController
