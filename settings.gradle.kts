@@ -1,1 +1,1 @@
-rootProject.name = "spring-playground"
+rootProject.name = "learn-spring-boot"
