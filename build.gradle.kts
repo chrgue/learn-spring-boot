@@ -30,6 +30,8 @@ dependencies {
     testImplementation("io.projectreactor:reactor-test:3.4.11")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+    addSpringPlugin()
 }
 
 tasks.withType<KotlinCompile> {
@@ -41,4 +43,10 @@ tasks.withType<KotlinCompile> {
 
 tasks.withType<Test> {
     useJUnitPlatform()
+}
+
+fun DependencyHandlerScope.addSpringPlugin(version:String="2.0.0.RELEASE") {
+
+    implementation("org.springframework.plugin:spring-plugin-core:$version")
+    implementation("org.springframework.plugin:spring-plugin-metadata:$version")
 }
