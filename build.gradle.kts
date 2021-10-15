@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "io.chrgue.learn.springboot"
-version = "0.0.1-SNAPSHOT"
+version = "2.0.0.RELEASE"
 java.sourceCompatibility = JavaVersion.VERSION_11
 
 repositories {
