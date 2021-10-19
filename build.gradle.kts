@@ -26,7 +26,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor:1.5.2-native-mt")
 
-    testImplementation("org.springframework.security:spring-security-test:5.5.2")
+    testImplementation("org.springframework.security:spring-security-test:5.5.3")
     testImplementation("io.projectreactor:reactor-test:3.4.11")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
