@@ -27,7 +27,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor:1.5.2-native-mt")
 
     testImplementation("org.springframework.security:spring-security-test:5.5.2")
-    testImplementation("io.projectreactor:reactor-test:3.4.11")
+    testImplementation("io.projectreactor:reactor-test:3.4.18")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 
